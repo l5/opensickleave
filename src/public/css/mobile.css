@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #000;
+	width: auto;
+}
+
+#head {
+	background-image: url('/pic/logo.gif');
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	height: 35px;
+	padding: 5px;
+}
+
+#page {
+	width: 100%;
+	border-radius: 0px;
+	padding: 0px;
+	border-style: none;
+	margin-top: 0px;
+}
+
+#foot { 
+	width: 100%;
+}
+
+.statusbutton {
+	width: 45%;
+	margin: 0px;
+	padding: 0px;
+}
+#statusul li, #statusul ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#fdatefrom,#fdateuntil {
+	width: 70%;
+}
+
+input,textarea,select {
+	width: 80%;
+}
+
+#loginform {
+	text-align: center;
+}
+.logincode {
+	width: 98%;
+	max-width: 400px;
+	font-size: 2em;
+}
+.loginsubmit {
+	font-size: 1.5em;
+	padding: 5px 10px 5px 10px;
+}
+
+.bubble {
+	width: 90%;
+}
